@@ -6,21 +6,22 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script.js"></script>
 </head>
 <body>
-    <header class="nav">
+    <header class="nav sticky" >
         <nav class="navigation"><b>Gaurav Thote</b></nav>
         <div class="navList">
             <ul>
-                <li><b>Home</b></li>
-                <li><b>About</b></li>
-                <li><b>Projects</b></li>
-                <li><b>Contact</b></li>
+                <li><div onclick="goToSection('home')">Home</div></li>
+                <li><div onclick="goToSection('about')">About</div></li>
+                <li><div onclick="goToSection('project')">Projects</div></li>
+                <li><div onclick="goToSection('contact')">Contact</div></li>
             </ul>
         </div>
     </header>
 
-    <section class="home">
+    <section class="home" id="home">
         <div style="float: right;">
             <img class="mainImage" src="gaurav.jpeg" alt="Your Image">
         </div>
@@ -35,7 +36,7 @@
 
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
         <p class="about_you">
             I am a Software Engineer.I have a strong passion for learning new technologies and staying up-to-date with the latest advancements in the field. <br> <br>
             While I'm perceiving my Bachelor's Degree in Computer Engineering from Jagadambha College of Engineering & Technology, my interest in computer science began in my second year of university and has only grown since then. <br> <br>
@@ -48,7 +49,7 @@
         
     </section>
 
-    <section class="project">
+    <section class="project" id="project">
         <p class="title">
             Movie Ticket Booking Application<br>
         </p>
@@ -72,20 +73,20 @@
         </p> 
     </section>
     <hr>
-    <section class="contact">
+    <section class="contact" id="contact">
         
-        <p>
+        <div>
             Email <br>
             gauravthote@gmail.com <br> <br>
             Linkedin <br>
-            linkdin/gauravthote 
-        </p>
+            <a href="https://www.linkedin.com/in/gaurav-thote-561312256">linkdin/gauravthote</a> 
+        </div>
 
         <p>
             Mobile Number <br>
-            123456780 <br> <br>
-            Instagram <br>
-            gauravThote
+            7350661308 <br> <br>
+            GitHub <br>
+            <a href="https://github.com/Gaurav-Thote">Gaurav-Thote</a>
 
         </p>
     </section>

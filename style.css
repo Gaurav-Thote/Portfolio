@@ -32,6 +32,7 @@ li {
     justify-content: space-between;
     padding: 0 20px;
     color: var(--third);
+    font-weight: bold;
 }
 
 header {
@@ -74,13 +75,11 @@ div {
     padding: 0px;
 }
 
-
-
 .home {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 70px 90px;
+    margin: 140px 90px 70px 90px;
     background-color: var(--third);
     border-radius: 6px;
     box-shadow: 0 10px 10px var(--shadow);
@@ -105,7 +104,7 @@ div {
     border-radius: 6px;
     box-shadow: 0 10px 10px var(--shadow);
     align-items: center;
-    height: 600px;
+    height: 560px;
 }
 
 .you {
@@ -130,7 +129,7 @@ div {
     border-radius: 6px;
     box-shadow: 0 10px 10px var(--shadow);
     align-items: center;
-    height: 600px;
+    height: 560px;;
 }
 
 .title {
@@ -146,3 +145,14 @@ div {
     padding: 70px 90px 0 90px;
     height: 200px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: white    ;
+  }
