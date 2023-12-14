@@ -1,0 +1,148 @@
+:root {
+    --first: #6c757d;
+    --second: #75ff75;
+    --third: #212529;
+    --fourth: #fcf7f8;
+    --fifth: #f5f0f6;
+    --shadow: rgba(0, 0, 0, 0.698);
+}
+
+body {
+    background-color: var(--first);
+    color: white;
+    font-family: serif;
+    margin: 0;
+}
+
+.mainImage {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px var(--shadow);
+}
+
+.navList {
+    padding: 0 90px;
+}
+
+li { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    color: var(--third);
+}
+
+header {
+    font-size: 30px;
+    background-color: var(--fifth);
+}
+
+p{
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navigation {
+    padding: 10px 90px;
+    color: var(--third);
+}
+
+section {
+    height: 325px;
+    font-size: 30px;
+    padding: 0 90px;
+    margin: 30px;
+
+}
+
+div {
+    padding: 0px;
+}
+
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 90px;
+    background-color: var(--third);
+    border-radius: 6px;
+    box-shadow: 0 10px 10px var(--shadow);
+    align-items: center;
+    height: 550px;
+}
+
+.home_content {
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 200px;
+    font-family: serif;
+    color: var(--second);
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 70px 90px;
+    background-color: var(--third);
+    border-radius: 6px;
+    box-shadow: 0 10px 10px var(--shadow);
+    align-items: center;
+    height: 600px;
+}
+
+.you {
+    font-size: 60px;
+    margin: 0;
+    color: var(--fifth);
+}
+
+.developer {
+    font-size: 60px;
+    margin: 0;
+}
+
+.knowMore {
+    margin: 0;
+    color: var(--fifth);
+}
+
+.project {
+    margin: 70px 90px;
+    background-color: var(--third);
+    border-radius: 6px;
+    box-shadow: 0 10px 10px var(--shadow);
+    align-items: center;
+    height: 600px;
+}
+
+.title {
+    padding-top: 70px;
+    font-size: 60px;
+    color: var(--second);
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 90px 0 90px;
+    height: 200px;
+}
